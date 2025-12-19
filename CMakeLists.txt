@@ -21,12 +21,12 @@ if(NOT VCPKG_BOOTSTRAP_RESULT EQUAL "0")
 endif()
 
 
-project(zarchiver)
+project(zot)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(PcapPlusPlus CONFIG REQUIRED)
 
-add_executable(zarchiver main.cpp)
+add_executable(zot main.cpp)
 
-target_link_libraries(zarchiver PRIVATE Pcap++ Packet++ Common++ PCAP pthread)
+target_link_libraries(zot PRIVATE Pcap++ Packet++ Common++ PCAP pthread)

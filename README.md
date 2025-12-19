@@ -9,7 +9,7 @@ it most definitely does not stand for zenless optimizer thingy... whatever would
 im not entirely sure but you should be able to just do um
 
 ```bash
-cmake -DCMAKE_TOOLCHAIN_FILE=/home/kwame/Documents/GitHub/zarchiver/vcpkg/scripts/buildsystems/vcpkg.cmake -S . -B build -G Ninja
+cmake -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake -S . -B build -G Ninja
 ```
 
 and then pray that it works

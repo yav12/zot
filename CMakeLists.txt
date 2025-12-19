@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
+
 # do the submodule stuff
 find_package(Git QUIET)
 if(GIT_FOUND AND EXISTS "${CMAKE_SOURCE_DIR}/.git")
@@ -24,7 +25,7 @@ project(zarchiver)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(PcapPlusPlus REQUIRED)
+find_package(PcapPlusPlus CONFIG REQUIRED)
 
 add_executable(zarchiver main.cpp)
 

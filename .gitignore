@@ -1,3 +1,4 @@
 #stuff that shouldnt be tracked i guess
 build/
 .cache
+vcpkg_installed/

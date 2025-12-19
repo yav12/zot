@@ -29,4 +29,4 @@ find_package(PcapPlusPlus CONFIG REQUIRED)
 
 add_executable(zarchiver main.cpp)
 
-target_link_libraries(zarchiver PRIVATE Pcap++ Packet++ Common++ pcap pthread)
+target_link_libraries(zarchiver PRIVATE Pcap++ Packet++ Common++ PCAP pthread)

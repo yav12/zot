@@ -15,4 +15,3 @@ cmake -DCMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake -S . -B bu
 and then pray that it works
 
 if it doesnt work then idk man
-
